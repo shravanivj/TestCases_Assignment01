@@ -1,0 +1,24 @@
+Integration Test Cases
+
+Testing a compose mail window tht included following functionalities
+1) Compose button 2) TO 3) CC 4) BCC 5) Subject 6) Text body 7) Attachements
+
+Integration Tests
+1) Verify whether on clicking compose mail, takes you to "compose mail page" 
+2) Enter User b's email id into "TO" text filed, enter user c's email id in "BCC" text field, 
+   add invitation,click on add to contacts & 
+   click on "send button" The message sent succesfully should be displayed
+3) Click on "sent mail" link the sent mail page should be displayed. 
+   The first mail should be sent to user B's email id in "TO" field & 
+   User C's email id in "BCC" field with attached invitation to both the users B&C
+4) Login as User B with username & password. The user b home page should be displayed
+   with inbox page. The first mail in user B's account 
+   should have received with invitation from user A's email
+5) Login as User C with userid & password. The mail page of User c should be displayed with inbox page.
+   The first mail in user C's account should be displayed with an invitation received from user A's email id. 
+  Click on contacts link. The contacts page should be displayed and in contacts user A's email id should not be listed
+6) Click on "Compose" link button the compose mail page should bedisplayed
+   Enter User b's email id into "TO" text filed, enter user c's email id in "BCC" text field, 
+  click on add to contacts & click on "save button". The confirmation page should be displayed
+  Click on "Draft mail" link.The draft items page should be displayed.
+  The first mail in the draft itemsshould display user B's email

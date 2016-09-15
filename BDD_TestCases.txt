@@ -1,0 +1,19 @@
+Test cases in BDD
+
+Feature:Gmail Compose functionality
+        Here we will test gmail compose by user
+Background:
+           Given user is on gmail home page
+
+Scenario: compose email by user
+          Given user is on gmail home page
+          when user clicks on compose button
+          Then it takes to compose mail page
+   	  And enter email address in To, CC and BCC
+	  And enter the subject of the email
+	  And enter the text in the text body
+	  And attach a file by clicking on attachements icon
+	  And click on send button
+	  Then email is sent succesfully
+	  And I should see a message on the top "your message has been sent"
+	

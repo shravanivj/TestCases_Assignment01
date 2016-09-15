@@ -1,0 +1,27 @@
+Bug Name: gmail registration (password is visible, emailformat is not working properly)
+Bug ID: (It will be automatically created by the BUG Tracking tool once you save this bug)
+Area Path: www.gmail.com > create account
+Build Number: Version Number 5.0.1
+Severity: HIGH (High/Medium/Low) or 1
+Priority: HIGH (High/Medium/Low) or 1
+Assigned to: Developer-X
+Reported By: shravani
+Reported On: 9/15/2016
+Reason: Defect
+Status: New
+Environment: Windows 2010
+
+Description:
+gmail registration (password is visible, emailformat is not working properly), 
+hence unable to create a new user account.
+
+Steps To Reproduce:
+1) Navigate to browser and go to www.google.com
+2) Click on gmail -> create account
+3) gmail registration is shown
+4) Type new email id. error is shown even for correct email id format 
+5) Type the password. password is visble
+7) And also see the attached screenshot of the error page.
+8) unable to register gmail account for new user
+
+Expected result: On clicking submit button, should be prompted to a success message “New User has been created successfully”.

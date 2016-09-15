@@ -1,0 +1,19 @@
+Defects:
+write defects (3-4) for below functionality
+
+1) facebook and gmail integration is not working
+
+  i) when facebook account is created we can link an account to an email. But the user is not able to create an account
+     pre req – email should be registered
+  ii) Even the user gives correct login username password user is not able to login -  Database(Bakend issues)
+  iii) If user forgets password for facebook and gmail then there should be an alternative like phone num or secondary email.
+
+2) users not able to perform transfer money through chase.com
+   i) if there is backend issue in the database
+   ii) server is slow and takes time for loading
+
+3) gmail registration (password is visible, emailformat is not working properly)
+   i) email format is not working properly as domain gmail.com is not set properly
+   ii) password is visible as in the backend input is given as text instead of password in HTML.
+   iii) password should not accept if it is not 8 characters.   
+
